@@ -5,6 +5,7 @@ import HeroBanner from "../components/HeroBanner";
 import SearchExercises from "../components/SearchExercises";
 import BodyPart from "../components/BodyPart";
 import HorizontalScrollBar from "../components/HorizontalScrollBar";
+import Exercises from "../components/Exercises";
 
 const ComponentPreviews = () => {
   return (
@@ -21,6 +22,9 @@ const ComponentPreviews = () => {
       <ComponentPreview path="/HorizontalScrollBar">
         <HorizontalScrollBar />
       </ComponentPreview>
+        <ComponentPreview path="/Exercises">
+            <Exercises/>
+        </ComponentPreview>
     </Previews>
   );
 };
