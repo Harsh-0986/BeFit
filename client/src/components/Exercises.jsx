@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Stack, Typography } from "@mui/material";
+import ExerciseCard from "./ExerciseCard";
 
 const Exercises = ({ bodyPart, setExcercises, exercises }) => {
   return (
@@ -25,7 +26,7 @@ const Exercises = ({ bodyPart, setExcercises, exercises }) => {
         justifyContent={"center"}
       >
         {exercises.map((exercise, index) => (
-          <p>{exercise.name}</p>
+          <ExerciseCard key={index} exercise={exercise} />
         ))}
       </Stack>
     </Box>
