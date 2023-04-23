@@ -7,6 +7,11 @@
         <option name="port" value="3000" />
         <option name="scriptName" value="start" />
       </DevServerState>
+      <DevServerState>
+        <option name="packageJsonPath" value="$PROJECT_DIR$/client/package.json" />
+        <option name="port" value="3000" />
+        <option name="scriptName" value="start" />
+      </DevServerState>
     </option>
   </component>
 </project>
